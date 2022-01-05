@@ -75,6 +75,7 @@ div.supporting-text p{
 }
 
 div.social{
+    margin-top: 20px;
     width: 150px;
     flex-wrap: wrap;
     display: flex;
