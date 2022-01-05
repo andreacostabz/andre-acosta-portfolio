@@ -10,6 +10,7 @@ body{
     background-size: cover;
     display: flex;
     flex-direction: column;
+    gap: 30px;
 }
 
 div.container{
@@ -17,7 +18,7 @@ div.container{
     flex-direction: column;
 }
 
-div.container h2{
+nav.flex-nav h2{
     margin-left: 12px;
     font-weight: 600;
     font-size: 20px;
@@ -36,7 +37,6 @@ div.main-text{
 }
 
 div.main-text h1{
-    margin-top: 64px;
     font-family: 'Inter', sans-serif;
     font-style: bold;
     font-size: 40px;
@@ -50,7 +50,6 @@ div.main-text span{
 
 div.supporting-text{
     display: flex;
-    margin-top: 58px;
 }
 
 div.supporting-text p{
@@ -64,5 +63,4 @@ div.supporting-text p{
 div.social{
     display: flex;
     background-color: orange;
-    margin-top: 12px;
 }
