@@ -33,4 +33,5 @@ div.supporting-text{
 div.social{
     display: flex;
     background-color: orange;
+    margin-top: 12px;
 }
