@@ -27,4 +27,5 @@ div.main-text{
 div.supporting-text{
     display: flex;
     background-color: blueviolet;
+    margin-top: 12px;
 }
