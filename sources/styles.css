@@ -24,9 +24,12 @@ nav.flex-nav h2{
     margin-left: 12px;
     font-weight: 600;
     font-size: 20px;
+    margin-top: 7px;
     font-style: normal;
     line-height: 116%;
     font-family: 'Inter', sans-serif;
+    width: 90px;
+    height: 22px;
     color: #28352F;
 }
 
@@ -46,7 +49,7 @@ nav.flex-nav{
     float: right;
     height: 25px;
     width: 40px;
-    margin-top: 7px;
+    margin-right: 36px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -65,6 +68,8 @@ div.main-text{
     align-self: center;
     flex-direction: column;
     margin-top: 74px;
+    height: 192px;
+    width: 327px;
 }
 
 div.main-text h1{
@@ -88,10 +93,13 @@ div.supporting-text{
     margin-top: 58px;
     display: flex;
     align-self: center;
+    width: 327px;
+    height: 164px;
 }
 
 div.supporting-text p{
     font-family: 'Inter', sans-serif;
+    font-weight: 400;
     font-style: normal;
     font-size: 20px;
     line-height: 116%;
@@ -99,15 +107,28 @@ div.supporting-text p{
 }
 
 div.social{
-    margin-top: 20px;
+    margin-top: 58px;
     width: 150px;
     flex-wrap: wrap;
     display: flex;
     justify-content: space-between;
 }
 
-button {
+div.social:hover{
+    background-color: rgb(241, 235, 225);
+    animation-timing-function: ease-in-out 2s;
+}
+
+div.button button img{
     border: none;
     align-self: center;
     background: white;
+    position: absolute;
+    border-radius: 50%;
+    top: 90%;
+    left: 50%;
   }
+
+div.button button img:hover{
+    background-color: gray;
+}
