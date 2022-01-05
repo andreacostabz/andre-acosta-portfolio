@@ -8,15 +8,16 @@ body{
     background-image: url("/images/header-illsutration-mobile@2x.png");
     background-repeat: no-repeat;
     background-size: cover;
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
+    width: 100%;
 }
 
-div.container{
+div.main-body{
     display: flex;
+    align-items: center;
+    justify-content: center;
     flex-direction: column;
 }
+
 
 nav.flex-nav h2{
     margin-left: 12px;
@@ -30,10 +31,16 @@ nav.flex-nav h2{
 
 nav.flex-nav{
     display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    width: 100%;
 }
 
 div.main-text{
     display: flex;
+    align-self: center;
+    flex-direction: column;
+    margin-top: 74px;
 }
 
 div.main-text h1{
@@ -44,11 +51,17 @@ div.main-text h1{
     color: #172B4D;
 }
 
-div.main-text span{
+div.main-text h2{
+    font-family: 'Inter', sans-serif;
+    font-style: bold;
+    font-size: 40px;
+    line-height: 107%;
     color: #36B37E;
+
 }
 
 div.supporting-text{
+    margin-top: 58px;
     display: flex;
 }
 
@@ -61,6 +74,8 @@ div.supporting-text p{
 }
 
 div.social{
+    width: 150px;
+    flex-wrap: wrap;
     display: flex;
-    background-color: orange;
+    justify-content: space-between;
 }
