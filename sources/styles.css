@@ -105,3 +105,10 @@ div.social{
     display: flex;
     justify-content: space-between;
 }
+
+div.button{
+    display: flex;
+    align-self: center;
+    background: none;
+    border-radius: 50px;
+}
