@@ -63,6 +63,7 @@ div.main-text h2{
 div.supporting-text{
     margin-top: 58px;
     display: flex;
+    align-self: center;
 }
 
 div.supporting-text p{
