@@ -46,7 +46,7 @@ nav.flex-nav{
     float: right;
     height: 25px;
     width: 40px;
-    margin-top: 20px;
+    margin-top: 7px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -56,8 +56,8 @@ nav.flex-nav{
 
 .menulogo{
     height: 3px;
-    width: 30px;
-    background-color: black
+    width: 16px;
+    background-color: #ACB7C3
 }
 
 div.main-text{
@@ -106,9 +106,8 @@ div.social{
     justify-content: space-between;
 }
 
-div.button{
-    display: flex;
+button {
+    border: none;
     align-self: center;
-    background: none;
-    border-radius: 50px;
-}
+    background: white;
+  }
