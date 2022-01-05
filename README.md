@@ -3,7 +3,7 @@ Andre Acosta Portfolio
 In this project I focus on building my personal portfolio to show off
 my best work!
 
-![alt text]("images/Screen Shot 2022-01-05 at 17.24.49.png")
+![alt text]("/images/Screen Shot 2022-01-05 at 17.24.49.png")
 
 This Project has both a mobile and desktop version and is fully responsive
 to accommodate all screen sizes.
