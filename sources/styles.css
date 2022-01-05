@@ -18,3 +18,8 @@ div.container{
     width: 10px;
     color: aqua;
 }
+
+div.main-text{
+    display: flex;
+    background-color: aquamarine;
+}
