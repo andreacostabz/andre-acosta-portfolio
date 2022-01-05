@@ -13,6 +13,12 @@ div.container{
     display: flex;
 }
 
+div.container h2{
+    margin-left: 12px;
+    font-weight: 600;
+    color: #28352F;
+}
+
 nav.flex-nav{
     display: flex;
 }
