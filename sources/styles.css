@@ -30,11 +30,17 @@ nav.flex-nav{
 
 div.main-text{
     display: flex;
-    background-color: aquamarine;
+    background-color: brown;
 }
 
 div.main-text h1{
     margin-top: 64px;
+    color: #172B4D;
+
+}
+
+div.main-text span{
+    color: #36B37E;
 }
 
 div.supporting-text{
