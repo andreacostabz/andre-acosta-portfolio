@@ -12,6 +12,7 @@ body{
 
 div.container{
     display: flex;
+    flex-direction: column;
 }
 
 div.container h2{
@@ -40,7 +41,6 @@ div.main-text h1{
     font-size: 40px;
     line-height: 107%;
     color: #172B4D;
-
 }
 
 div.main-text span{
