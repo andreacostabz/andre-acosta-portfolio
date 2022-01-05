@@ -50,7 +50,11 @@ div.main-text span{
 div.supporting-text{
     display: flex;
     background-color: blueviolet;
-    margin-top: 12px;
+    margin-top: 58px;
+}
+
+div.supporting-text p{
+    
 }
 
 div.social{
