@@ -33,6 +33,10 @@ div.main-text{
     background-color: aquamarine;
 }
 
+div.main-text h1{
+    margin-top: 64px;
+}
+
 div.supporting-text{
     display: flex;
     background-color: blueviolet;
