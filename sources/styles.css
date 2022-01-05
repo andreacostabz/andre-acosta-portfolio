@@ -23,3 +23,8 @@ div.main-text{
     display: flex;
     background-color: aquamarine;
 }
+
+div.supporting-text{
+    display: flex;
+    background-color: blueviolet;
+}
