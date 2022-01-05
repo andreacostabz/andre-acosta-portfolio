@@ -54,7 +54,11 @@ div.supporting-text{
 }
 
 div.supporting-text p{
-    
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 116%;
+    color: #172B4D;
 }
 
 div.social{
