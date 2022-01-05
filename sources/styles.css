@@ -8,6 +8,8 @@ body{
     background-image: url("/images/header-illsutration-mobile@2x.png");
     background-repeat: no-repeat;
     background-size: cover;
+    display: flex;
+    flex-direction: column;
 }
 
 div.container{
@@ -31,7 +33,6 @@ nav.flex-nav{
 
 div.main-text{
     display: flex;
-    background-color: brown;
 }
 
 div.main-text h1{
@@ -49,7 +50,6 @@ div.main-text span{
 
 div.supporting-text{
     display: flex;
-    background-color: blueviolet;
     margin-top: 58px;
 }
 
