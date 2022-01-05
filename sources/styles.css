@@ -29,3 +29,8 @@ div.supporting-text{
     background-color: blueviolet;
     margin-top: 12px;
 }
+
+div.social{
+    display: flex;
+    background-color: orange;
+}
