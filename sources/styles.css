@@ -35,6 +35,10 @@ div.main-text{
 
 div.main-text h1{
     margin-top: 64px;
+    font-family: 'Inter', sans-serif;
+    font-style: bold;
+    font-size: 40px;
+    line-height: 107%;
     color: #172B4D;
 
 }
