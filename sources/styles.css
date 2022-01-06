@@ -178,6 +178,7 @@ article.project-list{
   display: flex;
   align-items: center;
   padding-top: 3px;
+  margin-bottom: 24px;
   justify-content: center;
   box-sizing: border-box;
   border: 1px solid #D0D9D4;
@@ -219,6 +220,8 @@ section.main-button {
 button.projectview {
   background-color: #36B37F;
   color: #ffff;
+  margin-top: 29px;
+  margin-bottom: 24px;
   width: 122px;
   height: 48px;
   border-radius: 4px;
@@ -228,4 +231,13 @@ button.projectview {
   font-size: 17px;
   line-height: 24px;
   letter-spacing: 3%;
+}
+
+button.projectview:hover {
+  background-color: #3f9973;
+}
+
+button.projectview:active {
+  background-color: #008552;
+  box-shadow: 0 5px rgb(47, 46, 46);
 }
