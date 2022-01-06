@@ -333,3 +333,40 @@ button.projectview:active {
 }
 
 /*about me*/
+section.about {
+  display: grid;
+  grid-template-rows: auto auto auto auto;
+  box-sizing: border-box;
+  margin-top: 18px;
+  width: 100%;
+  justify-content: center;
+}
+
+div.aboutme-desc h2 {
+  display: flex;
+  justify-content: center;
+  width: 351px;
+  height: 48px;
+  font-family: "Inter", sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 52px;
+  color: #172B4D;
+}
+
+div.aboutme-desc p {
+  display: flex;
+  justify-content: center;
+  width: 351px;
+  height: 189px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 32px;
+  color: #172B4D;
+}
+
+section.resume-btn{
+  
+}
