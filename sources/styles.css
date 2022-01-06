@@ -65,8 +65,9 @@ nav.flex-nav {
 
 section.main {
   display: flex;
-  align-items: center;
   flex-direction: column;
+  align-content: center;
+  text-align: center;
 }
 
 div.main-text {
@@ -120,7 +121,7 @@ div.supporting-text p {
 
 div.social {
   display: flex;
-  width: auto;
+  width: 100%;
   justify-content: center;
   letter-spacing: 20px;
 }
@@ -130,8 +131,6 @@ div.button {
   margin-top: 50px;
   color: grey;
   display: flex;
-  justify-content: center;
-  align-self: center;
 }
 
 div.button i.fa-arrow-down {
