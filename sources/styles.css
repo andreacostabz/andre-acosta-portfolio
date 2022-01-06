@@ -113,7 +113,12 @@ div.supporting-text p {
   color: #172b4d;
 }
 
-
+div.social{
+  display: flex;
+  width: auto;
+  justify-content: center;
+  letter-spacing: 20px;
+}
 
 div.button button img {
   border: none;
