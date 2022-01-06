@@ -216,7 +216,10 @@ ul.button-grid li.lang-button1 {
   border: 1px solid #EBF0EE;
   background-color: #EBF0EE;
   border-radius: 4px;
-  padding: 8px, 12px, 8px, 12px;
+  padding-top: 8px;
+  padding-right: 12px;
+  padding-bottom: 8px;
+  padding-left: 12px;
   font-family: "Inter", sans-serif;
   font-weight: 600;
   font-style: normal;
@@ -234,7 +237,10 @@ ul.button-grid li.lang-button2 {
   border: 1px solid #EBF0EE;
   background-color: #EBF0EE;
   border-radius: 4px;
-  padding: 8px, 12px, 8px, 12px;
+  padding-top: 8px;
+  padding-right: 12px;
+  padding-bottom: 8px;
+  padding-left: 12px;
   font-family: "Inter", sans-serif;
   font-weight: 600;
   font-style: normal;
@@ -252,7 +258,10 @@ ul.button-grid li.lang-button3 {
   border: 1px solid #EBF0EE;
   background-color: #EBF0EE;
   border-radius: 4px;
-  padding: 8px, 12px, 8px, 12px;
+  padding-top: 8px;
+  padding-right: 12px;
+  padding-bottom: 8px;
+  padding-left: 12px;
   font-family: "Inter", sans-serif;
   font-weight: 600;
   font-style: normal;
@@ -270,7 +279,10 @@ ul.button-grid li.lang-button4 {
   border: 1px solid #EBF0EE;
   background-color: #EBF0EE;
   border-radius: 4px;
-  padding: 8px, 12px, 8px, 12px;
+  padding-top: 8px;
+  padding-right: 12px;
+  padding-bottom: 8px;
+  padding-left: 12px;
   font-family: "Inter", sans-serif;
   font-weight: 600;
   font-style: normal;
