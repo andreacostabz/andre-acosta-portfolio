@@ -206,8 +206,42 @@ ul.button-grid{
   align-self: center;
 }
 
-ul.button-grid li {
+
+
+ul.button-grid li.lang-button1 {
+  display: flex;
+  width: 103px;
+  height: 32px;
   list-style: none;
+  box-sizing: border-box;
+  border: 1px solid #EBF0EE;
+}
+
+ul.button-grid li.lang-button2 {
+  display: flex;
+  width: 45px;
+  height: 32px;
+  list-style: none;
+  box-sizing: border-box;
+  border: 1px solid #EBF0EE;
+}
+
+ul.button-grid li.lang-button3 {
+  display: flex;
+  width: 82px;
+  height: 32px;
+  list-style: none;
+  box-sizing: border-box;
+  border: 1px solid #EBF0EE;
+}
+
+ul.button-grid li.lang-button4 {
+  display: flex;
+  width: 51px;
+  height: 32px;
+  list-style: none;
+  box-sizing: border-box;
+  border: 1px solid #EBF0EE;
 }
 
 section.main-button {
