@@ -158,11 +158,11 @@ section.mywork-main{
   justify-content: center;
 }
 
-.work-title {
+div.work-title {
   text-align: center;
 }
 
-.work-title h2 {
+div.work-title h2 {
   font-family: "Inter", sans-serif;
   font-size: 40px;
   font-style: normal;
@@ -170,3 +170,4 @@ section.mywork-main{
   line-height: 52px;
   color: #172B4D;
 }
+
