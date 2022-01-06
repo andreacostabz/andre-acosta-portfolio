@@ -152,11 +152,13 @@ div.button i.fa-arrow-down {
 /*start of my works section*/ 
 
 section.mywork-main{
+  display: grid;
+  grid-template-rows: auto auto auto auto;
+  box-sizing: border-box;
   margin-top: 18px;
   padding-top: 100px;
   width: 100%;
-  display: grid;
-  grid-template-rows: auto auto auto auto;
+  justify-content: center;
 }
 
 div.work-title {
@@ -171,17 +173,18 @@ div.work-title h2 {
   margin-bottom: 90px;
   line-height: 52px;
   color: #172B4D;
+  box-sizing: border-box;
 }
 
 article.project-list{
-  display: flex;
-  align-items: center;
-  padding-top: 3px;
-  margin-bottom: 24px;
-  justify-content: center;
+  margin-bottom: 12px;
   box-sizing: border-box;
-  border: 1px solid #D0D9D4;
+  border: 1px solid #acb7c3;
+  box-sizing: border-box;;
   border-radius: 8px;
+  display: flex;
+  width: 100%;
+  justify-content: center;
 }
 
 div.project1 img {
