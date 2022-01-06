@@ -167,6 +167,7 @@ div.work-title {
 
 div.work-title h2 {
   font-family: "Inter", sans-serif;
+  margin-top: 40px;
   font-size: 40px;
   font-style: normal;
   font-weight: 700;
@@ -352,11 +353,10 @@ div.aboutme-desc h2 {
   font-size: 40px;
   line-height: 52px;
   color: #172B4D;
+  margin-bottom: 24px;
 }
 
 div.aboutme-desc p {
-  display: flex;
-  justify-content: center;
   width: 351px;
   height: 189px;
   font-family: "Inter", sans-serif;
@@ -367,6 +367,23 @@ div.aboutme-desc p {
   color: #172B4D;
 }
 
-section.resume-btn{
-  
+section.resume-btn {
+  display: flex;
+  justify-content: center;
+}
+
+section.resume-btn button{
+  background-color: #36B37F;
+  color: #ffff;
+  margin-top: 29px;
+  margin-bottom: 24px;
+  width: 122px;
+  height: 48px;
+  border-radius: 4px;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 17px;
+  line-height: 24px;
+  letter-spacing: 3%;
 }
