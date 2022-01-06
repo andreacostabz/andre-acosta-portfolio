@@ -119,7 +119,7 @@ div.social:hover {
 
 div.button button img {
   border: none;
-  align-self: center;
+  text-align: center;
   background: white;
   position: absolute;
   border-radius: 50%;
