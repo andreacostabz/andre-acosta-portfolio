@@ -20,7 +20,7 @@ div.main-body {
   flex-direction: column;
 }
 
-nav.flex-nav h2 {
+nav.flex-nav a {
   margin-left: 12px;
   font-weight: 600;
   font-size: 20px;
