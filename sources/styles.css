@@ -113,12 +113,21 @@ div.supporting-text p {
   color: #172b4d;
 }
 
-div.social {
+div.social ul {
   width: 100%;
   display: flex;
   align-content: flex-start;
   justify-content: space-evenly;
   align-self: center;
+}
+
+div.social li {
+  list-style: none;
+}
+
+div.social li:hover {
+  color: grey;
+  cursor: pointer;
 }
 
 div.button {
