@@ -23,7 +23,7 @@ Authors
 
 GitHub: @andreacostabz
 Twitter: @andrebze
-LinkedIn: Andre Acosta
+LinkedIn: https://www.linkedin.com/in/andreacostabiz/
 
 Contributions, issues, and feature requests are welcome!
 
