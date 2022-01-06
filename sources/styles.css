@@ -63,6 +63,12 @@ nav.flex-nav {
   background-color: #acb7c3;
 }
 
+section.main{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
 div.main-text {
   display: flex;
   align-items: center;
