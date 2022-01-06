@@ -150,3 +150,24 @@ div.button i.fa-arrow-down {
   height: 40px;
 }
 /*start of my works section*/ 
+
+section.works{
+  display: flex;
+  padding: 120px 24px;
+  align-items: center;
+  flex-direction: column;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+div.work-title{
+  text-align: center;
+}
+
+div.work-title h2 {
+  font-family: "Inter", sans-serif; 
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  color: #172b4d;
+}
