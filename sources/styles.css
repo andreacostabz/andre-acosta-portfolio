@@ -184,6 +184,12 @@ article.project-list{
   border-radius: 8px;
 }
 
+div.project1 img {
+  height: 237px;
+  width: 100%;
+}
+
+
 div.project1 h2{
   text-align: center;
   width: 295px;
