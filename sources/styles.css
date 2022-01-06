@@ -126,6 +126,8 @@ div.button {
   margin-top: 50px;
   color: grey;
   display: flex;
+  justify-content: center;
+  align-self: center;
 }
 
 div.button i.fa-arrow-down {
