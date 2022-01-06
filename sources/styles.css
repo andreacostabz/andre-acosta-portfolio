@@ -322,3 +322,44 @@ button.projectview:active {
   background-color: #008552;
   box-shadow: 0 5px rgb(47, 46, 46);
 }
+
+/*about me*/
+
+section.aboutme {
+  padding-top: 10px;
+  width: 100%;
+  display: grid;
+  grid-template-rows: auto auto auto auto;
+}
+
+section.aboutme {
+  background-image: url("../images/header-illsutration-mobile@2x.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+
+section.profile {
+  display: flex;
+  text-align: center;
+}
+
+div.about-text h2 {
+  width: 351px;
+  height: 48px;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 40px;
+  line-height: 52px;
+}
+
+div.about-text p {
+  width: 351px;
+  height: 189px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 32px;
+}
