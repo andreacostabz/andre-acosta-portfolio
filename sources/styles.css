@@ -150,18 +150,3 @@ div.button i.fa-arrow-down {
   height: 40px;
 }
 /*start of my works section*/ 
-
-section#works {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  box-sizing: border-box;
-  width: 100%;
-  height: 100%;
-}
-
-div.works-container {
-  display: grid;
-  grid-template-columns: auto auto auto auto;
-  grid-template-rows: auto auto auto auto;
-}
