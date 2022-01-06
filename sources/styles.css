@@ -6,12 +6,7 @@
   box-sizing: border-box;
 }
 
-body {
-  background-image: url("../images/header-illsutration-mobile@2x.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 100%;
-}
+
 
 div.main-body {
   display: flex;
@@ -70,6 +65,13 @@ section.main {
   flex-direction: column;
   align-content: center;
   text-align: center;
+}
+
+section.main {
+  background-image: url("../images/header-illsutration-mobile@2x.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
 }
 
 div.main-text h1 {
@@ -175,6 +177,7 @@ div.work-title h2 {
 article.project-list{
   display: flex;
   align-items: center;
+  padding-top: 3px;
   justify-content: center;
   box-sizing: border-box;
   border: 1px solid #D0D9D4;
@@ -206,3 +209,16 @@ ul.button-grid li{
   list-style: none;
 }
 
+button.projectview {
+  background-color: #36B37F;
+  color: #ffff;
+  width: 122px;
+  height: 48px;
+  border-radius: 4px;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 17px;
+  line-height: 24px;
+  letter-spacing: 3%;
+}
