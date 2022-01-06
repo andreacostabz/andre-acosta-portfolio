@@ -65,7 +65,7 @@ nav.flex-nav {
 
 div.main-text {
   display: flex;
-  align-self: center;
+  text-align: center;
   flex-direction: column;
   margin-top: 74px;
   height: 192px;
