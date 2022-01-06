@@ -120,16 +120,20 @@ div.social{
   letter-spacing: 20px;
 }
 
-div.button button img {
-  border: none;
-  align-self: center;
-  background: white;
-  position: absolute;
+div.button{
   border-radius: 50%;
-  top: 90%;
-  left: 50%;
+  margin-top: 62px;
+  color: grey;
+  display: flex;
+  justify-content: center;
+  align-self: center;
 }
 
-div.button button img:hover {
-  background-color: gray;
+div.button i.fa-arrow-down{
+  padding-top: 10px;
+  border: 2px solid black;
+  border-radius: 100%;
+  background: grey;
+  width: 40px;
+  height: 40px;
 }
