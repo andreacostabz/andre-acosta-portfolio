@@ -7,7 +7,7 @@
 }
 
 body {
-  background-image: url("..main-text/images/header-illsutration-mobile@2x.png");
+  background-image: url("../images/header-illsutration-mobile@2x.png");
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
@@ -65,10 +65,9 @@ nav.flex-nav {
 
 div.main-text {
   display: flex;
+  align-items: center;
   text-align: center;
   flex-direction: column;
-  margin-top: 74px;
-  height: 192px;
   width: 100%;
 }
 
@@ -78,6 +77,8 @@ div.main-text h1 {
   font-size: 40px;
   line-height: 107%;
   color: #172b4d;
+  margin-top: 74px;
+  width: 372px;
 }
 
 div.main-text h2 {
@@ -86,23 +87,28 @@ div.main-text h2 {
   font-size: 40px;
   line-height: 107%;
   color: #36b37e;
+  height: 192px;
+  width: 372px;
+
 }
 
 div.supporting-text {
   margin-top: 58px;
   display: flex;
-  text-align: center;
+  align-items: center;
   flex-direction: column;
   flex-wrap: wrap;
-  width: 100%;
-  height: 164px;
 }
 
 div.supporting-text p {
+  display: flex;
+  text-align: center;
   font-family: "Inter", sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 20px;
+  width: 327px;
+  height: 164px;
   line-height: 116%;
   color: #172b4d;
 }
