@@ -91,7 +91,7 @@ div.main-text h2 {
 div.supporting-text {
   margin-top: 58px;
   display: flex;
-  align-self: center;
+  text-align: center;
   width: 327px;
   height: 164px;
 }
