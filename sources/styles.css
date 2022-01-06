@@ -153,7 +153,7 @@ div.button i.fa-arrow-down {
 
 section.mywork-main{
   margin-top: 18px;
-  padding-top: 30px;
+  padding-top: 100px;
   width: 100%;
   display: grid;
   grid-template-rows: auto auto auto auto;
@@ -180,7 +180,7 @@ article.project-list{
   margin-bottom: 24px;
   justify-content: center;
   box-sizing: border-box;
-  border: 1px solid #D0D9D4;
+  border: 1px hidden#D0D9D4;
   border-radius: 8px;
 }
 
