@@ -147,3 +147,26 @@ div.button i.fa-arrow-down {
   width: 40px;
   height: 40px;
 }
+/*start of my works section*/ 
+
+section.mywork-main{
+  margin-top: 18px;
+  padding-top: 30px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.work-title {
+  text-align: center;
+}
+
+.work-title h2 {
+  font-family: "Inter", sans-serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 52px;
+  color: #172B4D;
+}
