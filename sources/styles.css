@@ -205,8 +205,15 @@ ul.button-grid{
   align-self: center;
 }
 
-ul.button-grid li{
+ul.button-grid li {
   list-style: none;
+}
+
+section.main-button {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-self: center;
 }
 
 button.projectview {
