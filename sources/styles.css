@@ -167,7 +167,42 @@ div.work-title h2 {
   font-size: 40px;
   font-style: normal;
   font-weight: 700;
+  margin-bottom: 90px;
   line-height: 52px;
   color: #172B4D;
+}
+
+article.project-list{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  border: 1px solid #D0D9D4;
+  border-radius: 8px;
+}
+
+div.project1 h2{
+  text-align: center;
+  width: 295px;
+  height: 57px;
+  margin-bottom: 16px;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 32px;
+  color: #3A4A42;
+}
+
+ul.button-grid{
+  width: 100%;
+  display: flex;
+  align-content: flex-start;
+  justify-content: space-evenly;
+  align-self: center;
+}
+
+ul.button-grid li{
+  list-style: none;
 }
 
