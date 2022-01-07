@@ -357,6 +357,8 @@ div.aboutme-desc h2 {
 }
 
 div.aboutme-desc p {
+  display: flex;
+  text-align: center;
   width: 351px;
   height: 189px;
   font-family: "Inter", sans-serif;
@@ -389,8 +391,8 @@ section.resume-btn button{
 }
 
 section.details{
-  display: grid;
-  grid-template-rows: auto auto auto auto;
+  display: flex;
+  justify-content: center;
   box-sizing: border-box;
   margin-top: 18px;
   padding-top: 100px;
@@ -435,6 +437,7 @@ ul.langauge-list{
   align-content: center;
   justify-content: space-evenly;
   align-self: center;
+  margin-bottom: 15px;
 }
 
 div.languages ul.langauge-list li.javas {
@@ -524,12 +527,13 @@ div.languages ul.langauge-list li.css {
 /*frameworks*/
 
 section.add-details{
-  display: grid;
-  grid-template-rows: auto auto auto auto;
+  display: flex;
+  justify-content: center;
   box-sizing: border-box;
   margin-top: 18px;
   padding-top: 100px;
   width: 100%;
+  justify-content: center;
 
 }
 
@@ -540,7 +544,6 @@ article.about-info{
   box-sizing: border-box;;
   border-radius: 8px;
   width: 100%;
-  justify-content: center;
   background-color: #E5E5E5;
 }
 
@@ -550,7 +553,9 @@ div.frameworks img {
 }
 
 div.frameworks h2{
-  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 295px;
   height: 57px;
   margin-bottom: 16px;
@@ -565,10 +570,11 @@ div.frameworks h2{
 ul.framework-list{
   width: 100%;
   display: flex;
+  flex-wrap: wrap;
   list-style: none;
   align-content: center;
-  justify-content: space-evenly;
   align-self: center;
+  margin-bottom: 15px;
 }
 
 div.frameworks ul.framework-list li.bootstrap {
@@ -634,7 +640,7 @@ div.frameworks ul.framework-list li.rspec {
   color: #36b37e;
 }
 
-div.frameworks ul.framework-list li.capybara {
+div.frameworks ul.framework-list li.cap {
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -655,11 +661,165 @@ div.frameworks ul.framework-list li.capybara {
   color: #36b37e;
 }
 
-div.frameworks ul.framework-list li.sele {
+div.frameworks ul.framework-list li.sel {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  width: 53px;
+  width: 81px;
+  height: 40px;
+  border-radius: 8px;
+  background-color: #ffff;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 3%;
+  padding-top: 12px;
+  padding-right: 12px;
+  padding-bottom: 12px;
+  padding-left: 12px;
+  color: #36b37e;
+}
+
+/*skills*/
+section.add-skills{
+  display: flex;
+  box-sizing: border-box;
+  margin-top: 18px;
+  padding-top: 100px;
+  width: 100%;
+  flex-wrap: wrap;
+  align-items: stretch;
+}
+
+article.about-skills{
+  margin-bottom: 12px;
+  box-sizing: border-box;
+  border: 1px solid #acb7c3;
+  box-sizing: border-box;;
+  border-radius: 8px;
+  width: 100%;
+  justify-content: center;
+  background-color: #E5E5E5;
+}
+
+div.skills img {
+  height: 237px;
+  width: 100%;
+}
+
+div.skills h2{
+  display: flex;
+  justify-content: center;
+  width: 295px;
+  height: 57px;
+  margin-bottom: 16px;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 32px;
+  color: #3A4A42;
+}
+
+ul.skill-list{
+  width: 100%;
+  display: flex;
+  list-style: none;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+div.skills ul.skill-list li.codekit {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 72px;
+  height: 40px;
+  border-radius: 8px;
+  background-color: #ffff;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 3%;
+  padding-top: 12px;
+  padding-right: 12px;
+  padding-bottom: 12px;
+  padding-left: 12px;
+  color: #36b37e;
+}
+
+div.skills ul.skill-list li.git {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 67px;
+  height: 40px;
+  border-radius: 8px;
+  background-color: #ffff;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 3%;
+  padding-top: 12px;
+  padding-right: 12px;
+  padding-bottom: 12px;
+  padding-left: 12px;
+  color: #36b37e;
+}
+
+div.skills ul.skill-list li.cpen {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 79px;
+  height: 40px;
+  border-radius: 8px;
+  background-color: #ffff;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 3%;
+  padding-top: 12px;
+  padding-right: 12px;
+  padding-bottom: 12px;
+  padding-left: 12px;
+  color: #36b37e;
+}
+
+div.skills ul.skill-list li.gitlab {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 61px;
+  height: 40px;
+  border-radius: 8px;
+  background-color: #ffff;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 3%;
+  padding-top: 12px;
+  padding-right: 12px;
+  padding-bottom: 12px;
+  padding-left: 12px;
+  color: #36b37e;
+}
+
+div.skills ul.skill-list li.term {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 77px;
   height: 40px;
   border-radius: 8px;
   background-color: #ffff;
