@@ -333,9 +333,8 @@ section.about {
   justify-content: center;
   background-image: url("../images/illustration\ 1-\ about\ me-mobile.svg");
   background-repeat: no-repeat;
-  background-size:auto;
+  background-size: auto;
   background-position-x: 100%;
-
 }
 
 div.aboutme-desc h2 {
@@ -402,31 +401,31 @@ button.resume-btn:active {
 /* main buttons */
 
 button#test {
-  border: 0px;
+  border: none;
 }
 
 button#test1 {
-  border: 0px;
+  border: none;
 }
 
 button#test2 {
-  border: 0px;
+  border: none;
 }
 
 button#test3 {
-  border: 0px;
+  border: none;
 }
 
 button#test4 {
-  border: 0px;
+  border: none;
 }
 
 button#test5 {
-  border: 0px;
+  border: none;
 }
 
 button#test6 {
-  border: 0px;
+  border: none;
 }
 
 section.about-container {
@@ -485,4 +484,3 @@ section.about-container h4 {
   color: #344563;
   margin-bottom: 80px;
 }
-
