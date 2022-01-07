@@ -410,7 +410,7 @@ ul.container-projects-skill {
   list-style-type: none;
 }
 
-.container-projects-skill li.secs{
+.container-projects-skill li.secs {
   display: flex;
   font-family: "Inter", sans-serif;
   font-weight: 600;
