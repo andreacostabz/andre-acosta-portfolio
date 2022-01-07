@@ -411,9 +411,9 @@ section.about-container {
 ul.container-project-skills{
   display: flex;
   flex-direction: row;
-  text-align: center;
   justify-content: space-between;
-  min-width: 45px;
+  width: 100%;
+
 }
 
 ul {
@@ -431,6 +431,8 @@ ul {
   background-color: #fff;
   color: #36b37e;
   height: 40px;
+  margin-right: 10px;
+  min-height: 30px;
   border-radius: 4px;
   padding-right: 6px;
   padding-top: 12px;
