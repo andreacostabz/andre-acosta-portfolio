@@ -435,6 +435,7 @@ ul.langauge-list{
   align-content: center;
   justify-content: space-evenly;
   align-self: center;
+  margin-bottom: 15px;
 }
 
 div.languages ul.langauge-list li.javas {
