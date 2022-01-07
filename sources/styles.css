@@ -434,3 +434,12 @@ ul {
   border-radius: 4px;
   padding: 6px 10px 1px 10px;
 }
+
+section.about-container h4 {
+font-family: "Inter",sans-serif;
+font-weight: 600;
+font-style: normal;
+font-size: 24px;
+line-height: 32px;
+color:#344563;
+}
