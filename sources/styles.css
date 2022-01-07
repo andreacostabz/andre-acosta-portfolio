@@ -332,7 +332,10 @@ section.about {
   width: 100%;
   justify-content: center;
   background-image: url("../images/illustration\ 1-\ about\ me-mobile.svg");
+  background-repeat: no-repeat;
   background-size:auto;
+  background-position-x: 100%;
+
 }
 
 
