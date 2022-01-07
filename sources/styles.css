@@ -147,9 +147,9 @@ div.button i.fa-arrow-down {
   width: 40px;
   height: 40px;
 }
-/*start of my works section*/ 
+/*start of my works section*/
 
-section.mywork-main{
+section.mywork-main {
   display: grid;
   grid-template-rows: auto auto auto auto;
   box-sizing: border-box;
@@ -171,15 +171,15 @@ div.work-title h2 {
   font-weight: 700;
   margin-bottom: 90px;
   line-height: 52px;
-  color: #172B4D;
+  color: #172b4d;
   box-sizing: border-box;
 }
 
-article.project-list{
+article.project-list {
   margin-bottom: 12px;
   box-sizing: border-box;
   border: 1px solid #acb7c3;
-  box-sizing: border-box;;
+  box-sizing: border-box;
   border-radius: 8px;
   display: flex;
   width: 100%;
@@ -191,8 +191,7 @@ div.project1 img {
   width: 100%;
 }
 
-
-div.project1 h2{
+div.project1 h2 {
   text-align: center;
   width: 295px;
   height: 57px;
@@ -202,18 +201,16 @@ div.project1 h2{
   font-style: normal;
   font-size: 24px;
   line-height: 32px;
-  color: #3A4A42;
+  color: #3a4a42;
 }
 
-ul.button-grid{
+ul.button-grid {
   width: 100%;
   display: flex;
   align-content: flex-start;
   justify-content: space-evenly;
   align-self: center;
 }
-
-
 
 ul.button-grid li.lang-button1 {
   display: flex;
@@ -341,7 +338,6 @@ section.about {
   justify-content: center;
 }
 
-
 div.aboutme-desc h2 {
   display: flex;
   justify-content: center;
@@ -370,7 +366,7 @@ div.aboutme-desc p {
 
 section.resume-btn {
   display: flex;
-  justify-content:center;
+  justify-content: center;
 }
 
 section.resume-btn button {
@@ -387,8 +383,7 @@ section.resume-btn button {
   font-size: 17px;
   line-height: 24px;
   letter-spacing: 3%;
-} 
-
+}
 
 section.about-container {
   display: flex;
@@ -406,12 +401,11 @@ section.about-container {
   margin-bottom: 12px;
 }
 
-ul.container-project-skills{
+ul.container-project-skills {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   width: 100%;
-
 }
 
 ul {
@@ -422,7 +416,7 @@ ul {
 
 .container-projects-skill li {
   display: flex;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 600;
   font-size: 12px;
   text-align: center;
@@ -438,11 +432,11 @@ ul {
 }
 
 section.about-container h4 {
-font-family: "Inter",sans-serif;
-font-weight: 600;
-font-style: normal;
-font-size: 24px;
-line-height: 32px;
-color:#344563;
-margin-bottom: 80px;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 32px;
+  color: #344563;
+  margin-bottom: 80px;
 }
