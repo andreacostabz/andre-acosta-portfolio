@@ -402,6 +402,7 @@ section.about-container {
   height: 352px;
   width: 327px;
   padding: 25px;
+  margin-bottom: 12px;
 }
 
 ul.container-project-skills{
@@ -420,6 +421,16 @@ ul {
   list-style-type: none;
 }
 
-ul.container-project-skills li{
-  
+.container-projects-skill li {
+  display: flex;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 12px;
+  text-align: center;
+  background-color: #fff;
+  color: #36b37e;
+  min-height: 20px;
+  min-width: 10px;
+  border-radius: 4px;
+  padding: 6px 10px 1px 10px;
 }
