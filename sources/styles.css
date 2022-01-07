@@ -399,6 +399,8 @@ button.resume-btn:active {
   background-color: #008552;
 }
 
+/* main buttons */
+
 button#test {
   border: 0px;
 }
