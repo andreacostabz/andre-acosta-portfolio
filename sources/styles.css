@@ -6,8 +6,6 @@
   box-sizing: border-box;
 }
 
-
-
 div.main-body {
   display: flex;
   align-items: center;
@@ -223,8 +221,8 @@ ul.button-grid li.lang-button1 {
   height: 32px;
   list-style: none;
   box-sizing: border-box;
-  border: 1px solid #EBF0EE;
-  background-color: #EBF0EE;
+  border: 1px solid #ebf0eb;
+  background-color: #ebf0eb;
   border-radius: 4px;
   padding-top: 8px;
   padding-right: 12px;
@@ -244,8 +242,8 @@ ul.button-grid li.lang-button2 {
   height: 32px;
   list-style: none;
   box-sizing: border-box;
-  border: 1px solid #EBF0EE;
-  background-color: #EBF0EE;
+  border: 1px solid #ebf0eb;
+  background-color: #ebf0eb;
   border-radius: 4px;
   padding-top: 8px;
   padding-right: 12px;
@@ -265,8 +263,8 @@ ul.button-grid li.lang-button3 {
   height: 32px;
   list-style: none;
   box-sizing: border-box;
-  border: 1px solid #EBF0EE;
-  background-color: #EBF0EE;
+  border: 1px solid #ebf0eb;
+  background-color: #ebf0eb;
   border-radius: 4px;
   padding-top: 8px;
   padding-right: 12px;
@@ -286,8 +284,8 @@ ul.button-grid li.lang-button4 {
   height: 32px;
   list-style: none;
   box-sizing: border-box;
-  border: 1px solid #EBF0EE;
-  background-color: #EBF0EE;
+  border: 1px solid #ebf0eb;
+  background-color: #ebf0eb;
   border-radius: 4px;
   padding-top: 8px;
   padding-right: 12px;
@@ -309,7 +307,7 @@ section.main-button {
 }
 
 button.projectview {
-  background-color: #36B37F;
+  background-color: #36b37f;
   color: #ffff;
   margin-top: 29px;
   margin-bottom: 24px;
@@ -353,7 +351,7 @@ div.aboutme-desc h2 {
   font-weight: bold;
   font-size: 40px;
   line-height: 52px;
-  color: #172B4D;
+  color: #172b4d;
   margin-bottom: 24px;
 }
 
@@ -367,7 +365,7 @@ div.aboutme-desc p {
   font-style: normal;
   font-size: 20px;
   line-height: 32px;
-  color: #172B4D;
+  color: #172b4d;
 }
 
 section.resume-btn {
@@ -376,7 +374,7 @@ section.resume-btn {
 }
 
 section.resume-btn button {
-  background-color: #36B37F;
+  background-color: #36b37f;
   color: #ffff;
   margin-top: 29px;
   margin-bottom: 24px;
@@ -396,7 +394,7 @@ section.about-container {
   display: flex;
   box-sizing: border-box;
   border: 1px solid black;
-  background-color: #EBF0EE;
+  background-color: #ebf0eb;
   flex-direction: column;
   align-items: center;
   border-radius: 8px;
