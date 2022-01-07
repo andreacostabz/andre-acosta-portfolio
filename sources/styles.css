@@ -368,6 +368,10 @@ div.aboutme-desc p {
 section.resume-btn {
   display: flex;
   justify-content: center;
+  background-image: url("../images/illustration\ 2-about\ me\ mobile.svg");
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position-y: 20%;
 }
 
 section.resume-btn button {
