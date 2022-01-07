@@ -399,6 +399,34 @@ button.resume-btn:active {
   background-color: #008552;
 }
 
+button#test {
+  border: 0px;
+}
+
+button#test1 {
+  border: 0px;
+}
+
+button#test2 {
+  border: 0px;
+}
+
+button#test3 {
+  border: 0px;
+}
+
+button#test4 {
+  border: 0px;
+}
+
+button#test5 {
+  border: 0px;
+}
+
+button#test6 {
+  border: 0px;
+}
+
 section.about-container {
   display: flex;
   box-sizing: border-box;
@@ -456,6 +484,3 @@ section.about-container h4 {
   margin-bottom: 80px;
 }
 
-button#test{
-  border: 0px;
-}
