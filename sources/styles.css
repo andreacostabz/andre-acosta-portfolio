@@ -313,6 +313,7 @@ button.projectview {
   font-size: 17px;
   line-height: 24px;
   letter-spacing: 3%;
+  box-shadow: none;
 }
 
 button.projectview:hover {
@@ -321,7 +322,6 @@ button.projectview:hover {
 
 button.projectview:active {
   background-color: #008552;
-  box-shadow: 0 5px rgb(47, 46, 46);
 }
 
 /* about me */
@@ -370,21 +370,31 @@ section.resume-btn button {
   color: #ffff;
   margin-top: 29px;
   margin-bottom: 24px;
-  width: 122px;
+  width: 159px;
   height: 48px;
   border-radius: 4px;
   font-family: "Inter", sans-serif;
   font-weight: 500;
   font-style: normal;
+  text-decoration: none;
   font-size: 17px;
   line-height: 24px;
   letter-spacing: 3%;
 }
 
+button.resume-btn:hover {
+  background-color: #3f9973;
+  cursor: pointer;
+}
+
+button.resume-btn:active {
+  background-color: #008552;
+}
+
+
 section.about-container {
   display: flex;
   box-sizing: border-box;
-  border: 1px solid black;
   background-color: #ebf0eb;
   flex-direction: column;
   align-items: center;
@@ -422,8 +432,10 @@ ul.container-projects-skill {
   margin-right: 8px;
   min-height: 30px;
   border-radius: 4px;
-  padding-right: 6px;
+  padding-right: 12px;
   padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 12px;
   margin-top: 5px;
 }
 
