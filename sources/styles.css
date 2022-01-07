@@ -374,7 +374,7 @@ section.resume-btn {
   justify-content:center;
 }
 
-section.resume-btn button{
+section.resume-btn button {
   background-color: #36B37F;
   color: #ffff;
   margin-top: 29px;
@@ -389,3 +389,10 @@ section.resume-btn button{
   line-height: 24px;
   letter-spacing: 3%;
 } 
+
+
+section.about-container {
+  display: flex;
+  box-sizing: border-box;
+  border: 1px solid black;
+}
