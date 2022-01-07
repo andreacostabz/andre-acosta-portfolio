@@ -371,7 +371,7 @@ div.aboutme-desc p {
 
 section.resume-btn {
   display: flex;
-  justify-content: center;
+  justify-content:center;
 }
 
 section.resume-btn button{
@@ -388,4 +388,4 @@ section.resume-btn button{
   font-size: 17px;
   line-height: 24px;
   letter-spacing: 3%;
-}
+} 
