@@ -207,6 +207,7 @@ ul.button-grid {
 }
 
 ul.button-grid li.lang-button1 {
+  float: right;
   width: 103px;
   height: 32px;
   list-style: none;
@@ -227,6 +228,7 @@ ul.button-grid li.lang-button1 {
 }
 
 ul.button-grid li.lang-button2 {
+  float: right;
   width: 45px;
   height: 32px;
   list-style: none;
@@ -247,6 +249,7 @@ ul.button-grid li.lang-button2 {
 }
 
 ul.button-grid li.lang-button3 {
+  float: right;
   width: 82px;
   height: 32px;
   list-style: none;
@@ -267,6 +270,7 @@ ul.button-grid li.lang-button3 {
 }
 
 ul.button-grid li.lang-button4 {
+  float: right;
   width: 51px;
   height: 32px;
   list-style: none;
@@ -287,6 +291,7 @@ ul.button-grid li.lang-button4 {
 }
 
 section.main-button {
+  clear: right;
   display: flex;
   align-content: center;
   justify-content: center;
