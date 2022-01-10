@@ -201,14 +201,12 @@ div.project1 h2 {
 
 ul.button-grid {
   width: 100%;
-  display: flex;
   align-content: flex-start;
   justify-content: space-evenly;
   align-self: center;
 }
 
 ul.button-grid li.lang-button1 {
-  display: flex;
   width: 103px;
   height: 32px;
   list-style: none;
@@ -229,7 +227,6 @@ ul.button-grid li.lang-button1 {
 }
 
 ul.button-grid li.lang-button2 {
-  display: flex;
   width: 45px;
   height: 32px;
   list-style: none;
@@ -250,7 +247,6 @@ ul.button-grid li.lang-button2 {
 }
 
 ul.button-grid li.lang-button3 {
-  display: flex;
   width: 82px;
   height: 32px;
   list-style: none;
@@ -271,7 +267,6 @@ ul.button-grid li.lang-button3 {
 }
 
 ul.button-grid li.lang-button4 {
-  display: flex;
   width: 51px;
   height: 32px;
   list-style: none;
