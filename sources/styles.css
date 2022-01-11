@@ -524,7 +524,7 @@ ul.form-input .input {
   height: 48px;
   border-radius: 4px;
   border: 1px solid #d0d9d4;
-  margin: 24px;
+  margin: 15px;
   padding: 13px 15px;
 }
 
@@ -533,6 +533,7 @@ ul.form-input .input {
   height: 114px;
   border-radius: 4px;
   margin: 24px;
+  margin-top: 15px;
   padding: 12px;
 }
 
@@ -582,5 +583,5 @@ p.developer-email {
   line-height: 32px;
   color: #42526e;
   margin-top: 17px;
-  margin-bottom: 147px;
+  margin-bottom: 100px;
 }
