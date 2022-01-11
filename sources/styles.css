@@ -509,3 +509,15 @@ section.contact-container h3 {
   line-height: 52px;
   color: #172b4d
 }
+
+ul.form-input {
+  list-style-type: none;
+}
+
+ul.form-input li .input {
+   width: 327px;
+   height: 48px;
+   border-radius: 4px;
+   border: 1px solid black;
+   
+}
