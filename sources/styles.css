@@ -512,6 +512,10 @@ section.contact-container h3 {
 
 ul.form-input {
   list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 ul.form-input .input {
@@ -522,3 +526,28 @@ ul.form-input .input {
    margin: 24px;
    padding: 13px 15px;
 }
+
+.text-area {
+  width: 327px;
+  height: 114px;
+  border-radius: 4px;
+  margin: 24px;
+  padding: 12px;
+}
+
+.submit-message-button {
+  width: 129px;
+  height: 48px;
+  border-radius: 4px;
+  padding: 12px;
+  background-color: #36b37f;
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 17px;
+  line-height: 3%;
+  border: none;
+  outline: none;
+}
+
