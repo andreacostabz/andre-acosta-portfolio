@@ -514,7 +514,7 @@ ul.form-input {
   list-style-type: none;
 }
 
-ul.form-input li .input {
+ul.form-input .input {
    width: 327px;
    height: 48px;
    border-radius: 4px;
