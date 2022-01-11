@@ -576,12 +576,12 @@ button.submit-message-button:active {
 }
 
 p.developer-email {
-font-family: "Inter", sans-serif;
-font-style: normal;
-font-size: 20px;
-text-align: center;
-line-height: 32px;
-color: #42526e;
-margin-top: 17px;
-margin-bottom: 147px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-size: 20px;
+  text-align: center;
+  line-height: 32px;
+  color: #42526e;
+  margin-top: 17px;
+  margin-bottom: 147px;
 }
