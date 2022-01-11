@@ -54,6 +54,8 @@ To get a local copy up and running follow these simple example steps.
 
 - GitHub:@~eli
 - Twitter:@ElikplimAmedzro
+- LinkedIn:https://www.linkedin.com/in/emmanuel-elikplim-amedzro-187590125/
+
 
 
 ## 🤝 Contributing
