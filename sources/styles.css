@@ -554,6 +554,15 @@ ul.form-input .input {
   outline: none;
 }
 
+button.submit-message-button:hover {
+  background-color: #3f9973;
+  cursor: pointer;
+}
+
+button.submit-message-button:active {
+  background-color: #008552;
+}
+
 .social-icons {
   list-style-type: none;
   display: flex;
