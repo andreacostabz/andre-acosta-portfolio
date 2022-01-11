@@ -551,3 +551,16 @@ ul.form-input .input {
   outline: none;
 }
 
+.social-icons {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 44px;
+}
+
+.social-icons li i {
+  margin: 19.07px;
+  color: #505f79;
+}
+
