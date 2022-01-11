@@ -50,6 +50,11 @@ To get a local copy up and running follow these simple example steps.
 - Twitter:@andrebze
 - LinkedIn: https://www.linkedin.com/in/andreacostabiz/
 
+👤 **Author2**
+
+- GitHub:@~eli
+- Twitter:@ElikplimAmedzro
+
 
 ## 🤝 Contributing
 
