@@ -507,7 +507,7 @@ section.contact-container h3 {
   font-style: normal;
   font-size: 40px;
   line-height: 52px;
-  color: #172b4d
+  color: #172b4d;
 }
 
 ul.form-input {
@@ -518,6 +518,6 @@ ul.form-input .input {
    width: 327px;
    height: 48px;
    border-radius: 4px;
-   border: 1px solid black;
+   border: 1px solid #d0d9d4;
    
 }
