@@ -13,11 +13,8 @@ div.main-body {
   flex-direction: column;
 }
 
-div.img-holder {
+section.back-img{
   background-image: url("../images/header-illsutration-mobile@2x.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
 }
 
 header.flex-nav a {
@@ -194,7 +191,7 @@ div.work-title h2 {
 article.project-list {
   margin-bottom: 12px;
   box-sizing: border-box;
-  border: 1px solid #acb7c3;
+  border: 1px solid #ebf0eb;
   border-radius: 8px;
   display: flex;
   width: 100%;
@@ -645,19 +642,26 @@ p.developer-email {
 }
 
 @media (min-width: 992px) {
-  .mywork-main {
-  display:grid;
-  background-color: pink;
-  grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: repeat(3, 1fr);
-  grid-template-areas: 
-  "h h h h h h h h h h h h"
-  "c c c c c c c c c c c c"
-  "f f f f f f f f f f f f";
+  .works-container{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-auto-rows: auto;
+  grid-gap: 24px;
+  padding: 12px;
   }
 
-  div.work-title h2 {
-    grid-area: h;
-    width: 100vw;
+  .button-grid {
+    padding-right: 12px;
+    padding-left: 12px;
   }
+
+  .lang-button2{
+    margin-left: 8px;
+    margin-right: 8px;
+  }
+
+  .lang-button3{
+    margin-right: 8px;
+  }
+
 }
