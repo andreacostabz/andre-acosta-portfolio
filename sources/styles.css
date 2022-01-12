@@ -690,6 +690,11 @@ p.developer-email {
     padding-right: 275px;
     text-align: center;
   }
+
+  section.about-me{
+  display: flex;
+  justify-content: center;
+  }
 }
 
 
