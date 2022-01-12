@@ -13,6 +13,13 @@ div.main-body {
   flex-direction: column;
 }
 
+div.img-holder {
+  background-image: url("../images/header-illsutration-mobile@2x.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
 header.flex-nav a {
   margin-left: 12px;
   font-weight: 600;
@@ -78,9 +85,6 @@ section.main {
   flex-direction: column;
   align-content: center;
   text-align: center;
-  background-image: url("../images/header-illsutration-mobile@2x.png");
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 div.main-text h1 {
