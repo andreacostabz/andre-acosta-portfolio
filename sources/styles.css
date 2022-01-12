@@ -672,6 +672,11 @@ p.developer-email {
 }
 
 @media (min-width: 992px) {
+  section.about-container{
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+
    div.aboutme-desc {
      display: flex;
      flex-direction: column;
