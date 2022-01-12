@@ -585,3 +585,17 @@ p.developer-email {
   margin-top: 17px;
   margin-bottom: 100px;
 }
+
+/* start media styling */
+
+@media (min-width: 450px) {
+  header.flex-nav a {
+    display: none;
+  }
+  nav.flex-nav {
+    display: none;
+  }
+  .menulogo{
+    display: none;
+  }
+}
