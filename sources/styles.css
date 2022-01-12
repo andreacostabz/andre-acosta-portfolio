@@ -643,3 +643,21 @@ p.developer-email {
     display: none;
   }
 }
+
+@media (min-width: 992px) {
+  .mywork-main {
+  display:grid;
+  background-color: pink;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-areas: 
+  "h h h h h h h h h h h h"
+  "c c c c c c c c c c c c"
+  "f f f f f f f f f f f f";
+  }
+
+  div.work-title h2 {
+    grid-area: h;
+    width: 100vw;
+  }
+}
