@@ -620,7 +620,7 @@ p.developer-email {
   }
 }
 
-@media (min-width: 1100px) {
+@media (min-width: 992px) {
   section.main h2 {
     width: auto;
     display: flex;
