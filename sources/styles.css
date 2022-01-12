@@ -409,12 +409,11 @@ section.resume-btn button {
   letter-spacing: 3%;
 }
 
-button.resume-btn:hover {
+button.res-btn:hover {
   background-color: #3f9973;
-  cursor: pointer;
 }
 
-button.resume-btn:active {
+button.res-btn:active {
   background-color: #008552;
 }
 
