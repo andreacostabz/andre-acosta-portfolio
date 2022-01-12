@@ -670,3 +670,26 @@ p.developer-email {
 
   }
 }
+
+@media (min-width: 992px) {
+   div.aboutme-desc {
+     display: flex;
+     flex-direction: column;
+   }
+
+  div.aboutme-desc h2{
+    width: auto;
+    display: flex;
+    justify-content: center;
+    font-size: 48px;
+  }
+
+  div.aboutme-desc p {
+    width: 100%;
+    padding-left: 275px;
+    padding-right: 275px;
+    text-align: center;
+  }
+}
+
+
