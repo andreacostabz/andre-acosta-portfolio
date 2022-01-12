@@ -60,10 +60,12 @@ nav.flex-nav {
   width: auto;
   height: fit-content;
   display: flex;
+  justify-content: center;
 }
 
 .menu li {
   list-style-type: none;
+  padding: 20px;
 }
 
 section.main {
@@ -129,6 +131,7 @@ div.social ul {
 
 div.social li {
   list-style: none;
+  padding: 12px;
 }
 
 div.social li:hover {
