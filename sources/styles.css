@@ -14,7 +14,10 @@ div.main-body {
 }
 
 section.back-img{
-  background-image: url("../images/header-illsutration-mobile@2x.png");
+  background-image: url("../images/Header-llustration-desktop.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 header.flex-nav a {
@@ -662,6 +665,6 @@ p.developer-email {
 
   .lang-button3{
     margin-right: 8px;
-    
+
   }
 }
