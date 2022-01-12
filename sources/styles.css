@@ -56,6 +56,16 @@ nav.flex-nav {
   background-color: #acb7c3;
 }
 
+.menu{
+  width: auto;
+  height: fit-content;
+  display: flex;
+}
+
+.menu li {
+  list-style-type: none;
+}
+
 section.main {
   box-sizing: border-box;
   width: 100%;
@@ -115,7 +125,6 @@ div.social ul {
   justify-content: center;
   align-items: center;
   margin-top: 44px;
-  margin-right: 15;
 }
 
 div.social li {
@@ -616,5 +625,11 @@ p.developer-email {
     width: 75%;
     display: flex;
     justify-content: center;
+  }
+}
+
+@media (max-width: 450px) {
+  .menu {
+    display: none;
   }
 }
