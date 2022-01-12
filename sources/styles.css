@@ -15,9 +15,9 @@ div.main-body {
 
 section.back-img{
   background-image: url("../images/Header-llustration-desktop.svg");
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
 }
 
 header.flex-nav a {
@@ -625,6 +625,7 @@ p.developer-email {
     width: auto;
     display: flex;
     justify-content: center;
+    font-size: 48px;
   }
   section.main h1 {
     width: auto;
@@ -665,6 +666,6 @@ p.developer-email {
 
   .lang-button3{
     margin-right: 8px;
-    
+
   }
 }
