@@ -66,6 +66,9 @@ nav.flex-nav {
 .menu li {
   list-style-type: none;
   padding: 20px;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  color:#172b4d;
 }
 
 section.main {
