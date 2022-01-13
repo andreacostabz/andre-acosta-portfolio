@@ -671,6 +671,10 @@ p.developer-email {
 }
 
 @media (min-width: 992px) {
+  section.resume-btn{
+    background: none;
+  }
+
   div.aboutme-desc p {
     background-image: url("../images/illustration-about-me-2-desktop.svg");
     background-repeat: no-repeat;
