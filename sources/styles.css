@@ -808,4 +808,40 @@ cursor: pointer;
 }
 }
 
+/* midsize screen query */
 
+@media only screen and (min-width: 413px) and (max-width: 991px) {
+  section.main{
+    height: 100vh;
+    }
+    
+    section.main h2 {
+    width: auto;
+    display: flex;
+    justify-content: center;
+    font-size: 48px;
+    }
+    
+    section.main h1 {
+    width: auto;
+    display: flex;
+    justify-content: center;
+    font-size: 48px;
+    margin-top: 12%;
+    }
+    
+    div.supporting-text p {
+    width: 75%;
+    margin-top: -6%;
+    display: flex;
+    justify-content: center;
+    }
+    
+    div.social ul {
+    margin-top: -8%;
+    }
+    
+    div.button {
+    margin-top: -5px;
+    }
+    }
