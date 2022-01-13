@@ -699,6 +699,55 @@ p.developer-email {
   display: flex;
   justify-content: center;
   }
+
+ footer.contact-container {
+   display: grid;
+   grid-template-columns: 500px auto;
+   justify-content: space-around;
+   align-items: center;
+ }
+
+ footer.contact-container h3 {
+   width: 463px;
+   height: 256px;
+   margin-left: 5%;
+   padding: 5px;
+   text-align: center;
+ }
+
+  ul.form-input {
+    width: 684px;
+    height: 330px;
+  }
+
+  .input#name.input {
+    width: 684px;
+    margin-right: 90px;
+  }
+
+  input#email.input {
+    width: 684px;
+    margin-right: 90px;
+  }
+
+  textarea#client-message {
+    width: 684px;
+    height: 114px;
+    margin-right: 90px;
+  }
+
+  button.submit-message-button {
+  margin-right: 625px;
+  }
+ 
+  p.developer-email {
+    display: none;
+  }
+
+  .social-icons {
+    display:none;
+  }
 }
+
 
 
