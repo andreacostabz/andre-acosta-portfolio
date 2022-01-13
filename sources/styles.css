@@ -714,6 +714,8 @@ p.developer-email {
    grid-template-columns: 500px auto;
    justify-content: space-around;
    align-items: center;
+   background-image: url("../images/illustration-1-contact-form-desktop.svg");
+   background-position-x: 0;
  }
 
  footer.contact-container h3 {
