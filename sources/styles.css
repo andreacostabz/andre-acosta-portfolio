@@ -671,6 +671,10 @@ p.developer-email {
 }
 
 @media (min-width: 992px) {
+  section.about {
+    background-image: url("../images/illustration-about\ me-1-desktop@2x.svg");
+  }
+
   section.about-container{
     margin-left: 15px;
     margin-right: 15px;
@@ -711,7 +715,8 @@ p.developer-email {
    width: 463px;
    height: 256px;
    margin-left: 15%;
-   padding: 5px;
+   margin-bottom: 14%;
+   font-size: 30px;
    text-align: center;
  }
 
