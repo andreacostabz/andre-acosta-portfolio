@@ -604,6 +604,10 @@ p.developer-email {
   margin-bottom: 100px;
 }
 
+.hr-line {
+  display: none;
+}
+
 /* midsize screen query */
 
 @media (min-width: 413px) {
@@ -651,13 +655,8 @@ p.developer-email {
     padding: 12px;
   }
 
-  div.aboutme-desc p {
-    background-repeat: no-repeat;
-  }
-
   section.about {
-    background-image: url("../images/illustration-about\ me-1-desktop@2x.svg"),
-      url("../images/illustration-about-me-2-desktop.svg");
+    background-image: url("../images/illustration-about\ me-1-desktop@2x.svg"), url("../images/illustration-about-me-2-desktop.svg");
     background-position-x: 100%, 0;
     background-position-y: 20%, 40%;
   }
@@ -679,6 +678,7 @@ p.developer-email {
 
   div.aboutme-desc p {
     text-align: center;
+    background-repeat: no-repeat;
   }
 
   section.about-me {
@@ -686,11 +686,9 @@ p.developer-email {
     justify-content: center;
     margin-top: 4%;
     flex-wrap: wrap;
-    /* min-height: 20vh; */
   }
 
   section.resume-btn {
-    /* margin-top: 40%; */
     background: none;
   }
 }
@@ -709,8 +707,13 @@ p.developer-email {
   .menulogo {
     display: none;
   }
+
   .hr-line {
+    display: block;
     width: 100%;
+    grid-column: span 2;
+    align-self: flex-end;
+    color: #dfe1e6;
   }
 }
 
@@ -782,6 +785,10 @@ p.developer-email {
   div.aboutme-desc p {
     background-image: url("../images/illustration-about-me-2-desktop.svg");
     background-repeat: no-repeat;
+    width: 100%;
+    padding-left: 275px;
+    padding-right: 275px;
+    text-align: center;
   }
 
   section.about {
@@ -806,13 +813,6 @@ p.developer-email {
     font-size: 48px;
   }
 
-  div.aboutme-desc p {
-    width: 100%;
-    padding-left: 275px;
-    padding-right: 275px;
-    text-align: center;
-  }
-
   section.about-me {
     display: flex;
     justify-content: center;
@@ -823,13 +823,11 @@ p.developer-email {
     grid-template-columns: 500px auto;
     justify-content: space-around;
     align-items: center;
-    background-image: url("../images/illustration-1-contact-form-desktop.svg"),
-      url(../images/illustration-2-contact-form-desktop.svg),
-      url(../images/contact\ form-illustratoin-3-desktop.svg);
+    background-image: url("../images/illustration-1-contact-form-desktop.svg"), url("../images/illustration-2-contact-form-desktop.svg"), url("../images/contact\ form-illustratoin-3-desktop.svg");
     background-repeat: no-repeat, no-repeat, no-repeat;
     background-position-x: 0%, 25%, 100%;
     background-position-y: 100%, 100%, 60%;
-    margin-top: 0%;
+    margin-top: 5%;
     padding-top: -3%;
     height: 60vh;
   }
@@ -873,17 +871,11 @@ p.developer-email {
     display: none;
   }
 
-  hr {
-    width: 0.5px;
-    margin-top: 15%;
-    margin-bottom: 1%;
-  }
-
   ul.social-icons {
     width: 100%;
-    margin-top: 1%;
-    margin-right: 40%;
-    margin-bottom: 1%;
+    position: absolute;
+    left: -2%;
+    margin-top: 175px;
   }
 
   ul.social-icons:hover {
