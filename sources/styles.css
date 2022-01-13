@@ -74,7 +74,7 @@ nav.flex-nav {
   padding: 20px;
   font-family: "Inter", sans-serif;
   font-weight: 500;
-  color:#172b4d;
+  color: #172b4d;
 }
 
 section.main {
@@ -606,300 +606,293 @@ p.developer-email {
 
 /* midsize screen query */
 
-@media only screen and (min-width: 413px) {
-  section.main{
+@media (min-width: 413px) {
+  section.main {
     height: 100vh;
-    }
-    
-    section.main h2 {
+  }
+
+  section.main h2 {
     width: auto;
     display: flex;
     justify-content: center;
     font-size: 48px;
-    }
-    
-    section.main h1 {
+  }
+
+  section.main h1 {
     width: auto;
     display: flex;
     justify-content: center;
     font-size: 48px;
     margin-top: 12%;
-    }
-    
-    div.supporting-text p {
+  }
+
+  div.supporting-text p {
     width: 75%;
     margin-top: -6%;
     display: flex;
     justify-content: center;
-    }
-    
-    div.social ul {
+  }
+
+  div.social ul {
     margin-top: -8%;
-    }
-    
-    div.button {
+  }
+
+  div.button {
     margin-top: -5px;
-    }
-    }
+  }
+}
 
-    @media (min-width: 600px) {
-    .works-container{
-      display: grid;
-      grid-template-columns: auto auto ;
-      grid-auto-rows: auto;
-      grid-gap: 24px;
-      padding: 12px;
+@media (min-width: 600px) {
+  .works-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-auto-rows: auto;
+    grid-gap: 24px;
+    padding: 12px;
   }
 
-div.aboutme-desc p {
-  background-image: url("../images/illustration-about-me-2-desktop.svg");
-  background-repeat: no-repeat;
-  }
-  
-  section.about {
-  background-image: url("../images/illustration-about\ me-1-desktop@2x.svg");
-  }
-  
-  section.about-container{
-  margin-left: 15px;
-  margin-right: 15px;
-  }
-  
-  div.aboutme-desc {
-  display: flex;
-  flex-direction: column;
-
-  }
-  
-  div.aboutme-desc h2{
-  margin-top: 8%;
-  width: auto;
-  display: flex;
-  justify-content: center;
-  font-size: 48px;
-  }
-  
   div.aboutme-desc p {
-  width: 100%;
-  padding-left: 275px;
-  padding-right: 275px;
-  text-align: center;
+    background-repeat: no-repeat;
   }
-  
-  section.about-me{
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  margin-top: 4%;
-  }
-  
-  section.resume-btn{
-    margin-top: 225px;
-    background: none;
-    }
 
+  section.about {
+    background-image: url("../images/illustration-about\ me-1-desktop@2x.svg"),
+      url("../images/illustration-about-me-2-desktop.svg");
+    background-position-x: 100%, 0;
+    background-position-y: 20%, 40%;
+  }
+
+  div.aboutme-desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  div.aboutme-desc h2 {
+    margin-top: 8%;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    font-size: 48px;
+  }
+
+  div.aboutme-desc p {
+    text-align: center;
+  }
+
+  section.about-me {
+    display: flex;
+    justify-content: center;
+    margin-top: 4%;
+    flex-wrap: wrap;
+    /* min-height: 20vh; */
+  }
+
+  section.resume-btn {
+    /* margin-top: 40%; */
+    background: none;
+  }
 }
 
 /* start media styling */
 
 @media (min-width: 450px) {
-header.flex-nav a {
-display: none;
-}
+  header.flex-nav a {
+    display: none;
+  }
 
-nav.flex-nav {
-display: none;
-}
+  nav.flex-nav {
+    display: none;
+  }
 
-.menulogo{
-display: none;
-}
-.hr-line{
-width: 100%;
-}
+  .menulogo {
+    display: none;
+  }
+  .hr-line {
+    width: 100%;
+  }
 }
 
 @media (min-width: 992px) {
-section.main{
-height: 100vh;
-}
+  section.main {
+    height: 100vh;
+  }
 
-section.main h2 {
-width: auto;
-display: flex;
-justify-content: center;
-font-size: 48px;
-}
+  section.main h2 {
+    width: auto;
+    display: flex;
+    justify-content: center;
+    font-size: 48px;
+  }
 
-section.main h1 {
-width: auto;
-display: flex;
-justify-content: center;
-font-size: 48px;
-margin-top: 12%;
-}
+  section.main h1 {
+    width: auto;
+    display: flex;
+    justify-content: center;
+    font-size: 48px;
+    margin-top: 12%;
+  }
 
-div.supporting-text p {
-width: 75%;
-margin-top: -6%;
-display: flex;
-justify-content: center;
-}
+  div.supporting-text p {
+    width: 75%;
+    margin-top: -6%;
+    display: flex;
+    justify-content: center;
+  }
 
-div.social ul {
-margin-top: -8%;
-}
+  div.social ul {
+    margin-top: -8%;
+  }
 
-div.button {
-margin-top: -5px;
-}
+  div.button {
+    margin-top: -5px;
+  }
+
+  .works-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-auto-rows: auto;
+    grid-gap: 24px;
+    padding: 12px;
+  }
+
+  div.work-title h2 {
+    margin-top: -4%;
+  }
+
+  .button-grid {
+    padding-right: 12px;
+    padding-left: 12px;
+  }
+
+  .lang-button2 {
+    margin-left: 8px;
+    margin-right: 8px;
+  }
+
+  .lang-button3 {
+    margin-right: 8px;
+  }
+
+  section.resume-btn {
+    background: none;
+  }
+
+  div.aboutme-desc p {
+    background-image: url("../images/illustration-about-me-2-desktop.svg");
+    background-repeat: no-repeat;
+  }
+
+  section.about {
+    background-image: url("../images/illustration-about\ me-1-desktop@2x.svg");
+  }
+
+  section.about-container {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+
+  div.aboutme-desc {
+    display: flex;
+    flex-direction: column;
+  }
+
+  div.aboutme-desc h2 {
+    margin-top: 8%;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    font-size: 48px;
+  }
+
+  div.aboutme-desc p {
+    width: 100%;
+    padding-left: 275px;
+    padding-right: 275px;
+    text-align: center;
+  }
+
+  section.about-me {
+    display: flex;
+    justify-content: center;
+  }
+
+  footer.contact-container {
+    display: grid;
+    grid-template-columns: 500px auto;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url("../images/illustration-1-contact-form-desktop.svg"),
+      url(../images/illustration-2-contact-form-desktop.svg),
+      url(../images/contact\ form-illustratoin-3-desktop.svg);
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-position-x: 0%, 25%, 100%;
+    background-position-y: 100%, 100%, 60%;
+    margin-top: 0%;
+    padding-top: -3%;
+    height: 60vh;
+  }
+
+  footer.contact-container h3 {
+    width: 463px;
+    height: 256px;
+    margin-left: 6%;
+    margin-bottom: 14%;
+    font-size: 30px;
+    text-align: center;
+  }
+
+  ul.form-input {
+    width: 600px;
+    height: 330px;
+  }
+
+  .input#name.input {
+    width: 550px;
+    margin-right: -10px;
+  }
+
+  input#email.input {
+    width: 550px;
+    margin-right: -10px;
+  }
+
+  textarea#client-message {
+    width: 550px;
+    height: 114px;
+    margin-right: -10px;
+  }
+
+  button.submit-message-button {
+    margin-left: -70px;
+    margin-bottom: 12%;
+  }
+
+  p.developer-email {
+    display: none;
+  }
+
+  hr {
+    width: 0.5px;
+    margin-top: 15%;
+    margin-bottom: 1%;
+  }
+
+  ul.social-icons {
+    width: 100%;
+    margin-top: 1%;
+    margin-right: 40%;
+    margin-bottom: 1%;
+  }
+
+  ul.social-icons:hover {
+    cursor: pointer;
+  }
 }
 
 @media (max-width: 450px) {
-.menu {
-display: none;
-}
-}
-
-@media (min-width: 992px) {
-.works-container{
-display: grid;
-grid-template-columns: auto auto auto;
-grid-auto-rows: auto;
-grid-gap: 24px;
-padding: 12px;
-}
-
-div.work-title h2 {
-margin-top: -4%;
-}
-
-.button-grid {
-padding-right: 12px;
-padding-left: 12px;
-}
-
-.lang-button2{
-margin-left: 8px;
-margin-right: 8px;
-}
-
-.lang-button3{
-margin-right: 8px;
-}
-}
-
-@media (min-width: 992px) {
-section.resume-btn{
-background: none;
-}
-
-div.aboutme-desc p {
-background-image: url("../images/illustration-about-me-2-desktop.svg");
-background-repeat: no-repeat;
-}
-
-section.about {
-background-image: url("../images/illustration-about\ me-1-desktop@2x.svg");
-}
-
-section.about-container{
-margin-left: 15px;
-margin-right: 15px;
-}
-
-div.aboutme-desc {
-display: flex;
-flex-direction: column;
-}
-
-div.aboutme-desc h2{
-margin-top: 8%;
-width: auto;
-display: flex;
-justify-content: center;
-font-size: 48px;
-}
-
-div.aboutme-desc p {
-width: 100%;
-padding-left: 275px;
-padding-right: 275px;
-text-align: center;
-}
-
-section.about-me{
-display: flex;
-justify-content: center;
-}
-
-footer.contact-container {
-display: grid;
-grid-template-columns: 500px auto;
-justify-content: space-around;
-align-items: center;
-background-image: url("../images/illustration-1-contact-form-desktop.svg"),url(../images/illustration-2-contact-form-desktop.svg), url(../images/contact\ form-illustratoin-3-desktop.svg);
-background-repeat: no-repeat,no-repeat,no-repeat;
-background-position-x: 0%,25%,100%;
-background-position-y: 100%,100%,60%;
-margin-top: 0%;
-padding-top: -3%;
-height: 60vh;
-}
-
-footer.contact-container h3 {
-width: 463px;
-height: 256px;
-margin-left: 6%;
-margin-bottom: 14%;
-font-size: 30px;
-text-align: center;
-}
-
-ul.form-input {
-width: 600px;
-height: 330px;
-}
-
-.input#name.input {
-width: 550px;
-margin-right: -10px;
-}
-
-input#email.input {
-width: 550px;
-margin-right: -10px;
-}
-
-textarea#client-message {
-width: 550px;
-height: 114px;
-margin-right: -10px;
-}
-
-button.submit-message-button {
-margin-left: -70px;
-margin-bottom: 12%;
-}
- 
-p.developer-email {
-display: none;
-}
-
-hr{
-width: 0.5px;
-margin-top: 15%;
-margin-bottom:1%;
-}
-  
-ul.social-icons{
-width: 100%;
-margin-top: 1%;
-margin-right: 40%;
-margin-bottom: 1%;
-}
-
-ul.social-icons:hover {
-cursor: pointer;
-}
+  .menu {
+    display: none;
+  }
 }
