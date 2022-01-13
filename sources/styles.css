@@ -710,34 +710,35 @@ p.developer-email {
  footer.contact-container h3 {
    width: 463px;
    height: 256px;
-   margin-left: 5%;
+   margin-left: 15%;
    padding: 5px;
    text-align: center;
  }
 
   ul.form-input {
-    width: 684px;
+    width: 600px;
     height: 330px;
   }
 
   .input#name.input {
-    width: 684px;
-    margin-right: 90px;
+    width: 600px;
+    margin-right: 222px;
   }
 
   input#email.input {
-    width: 684px;
-    margin-right: 90px;
+    width: 600px;
+    margin-right: 222px;
   }
 
   textarea#client-message {
-    width: 684px;
+    width: 600px;
     height: 114px;
-    margin-right: 90px;
+    margin-right: 222px;
   }
 
   button.submit-message-button {
-  margin-right: 625px;
+  margin-right: 675px;
+  margin-bottom: 12%;
   }
  
   p.developer-email {
@@ -745,9 +746,9 @@ p.developer-email {
   }
 
   .social-icons {
-    display:none;
+  margin-left: 120%;
   }
-}
 
+}
 
 
