@@ -760,6 +760,10 @@ p.developer-email {
     padding: 12px;
   }
 
+  .project1 img:hover{
+  transform: scale(1.05);
+  }
+
   div.work-title h2 {
     margin-top: -4%;
     animation-duration: 3s;
