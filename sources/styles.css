@@ -820,6 +820,11 @@ p.developer-email {
     margin-right: 15px;
   }
 
+  section.about-container:hover {
+    border: 1px dashed #008552;
+    transform: scale(1.05);
+  }
+
   div.aboutme-desc {
     display: flex;
     flex-direction: column;
