@@ -718,6 +718,13 @@ p.developer-email {
 }
 
 @media (min-width: 992px) {
+  .menu li:hover {
+    zoom: 1.05;
+    text-decoration: underline;
+    color: #0fdd8e;
+    cursor: pointer;
+  }
+
   section.main {
     height: 100vh;
   }
