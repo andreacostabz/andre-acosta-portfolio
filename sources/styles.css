@@ -718,8 +718,6 @@ p.developer-email {
 }
 
 @media (min-width: 992px) {
- 
-
   .menu li:hover {
     zoom: 1.05;
     text-decoration: underline;
@@ -827,11 +825,6 @@ p.developer-email {
   section.about-container {
     margin-left: 15px;
     margin-right: 15px;
-  }
-
-  section.about-container:hover {
-    border: 1px dashed #008552;
-    transform: scale(1.05);
   }
 
   div.aboutme-desc {
