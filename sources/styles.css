@@ -760,8 +760,28 @@ p.developer-email {
     padding: 12px;
   }
 
+  .project1 img:hover {
+    transform: scale(1.05);
+  }
+
   div.work-title h2 {
     margin-top: -4%;
+    animation-duration: 3s;
+    animation-name: slidein;
+  }
+
+  /* my recent works animations */
+
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
   }
 
   .button-grid {
@@ -880,6 +900,7 @@ p.developer-email {
 
   ul.social-icons:hover {
     cursor: pointer;
+    transform: scale(1.5);
   }
 }
 
