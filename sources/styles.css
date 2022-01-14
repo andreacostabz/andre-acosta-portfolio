@@ -760,8 +760,8 @@ p.developer-email {
     padding: 12px;
   }
 
-  .project1 img:hover{
-  transform: scale(1.05);
+  .project1 img:hover {
+    transform: scale(1.05);
   }
 
   div.work-title h2 {
@@ -770,7 +770,7 @@ p.developer-email {
     animation-name: slidein;
   }
 
-/* my recent works animation */
+  /* my recent works animation */
 
   @keyframes slidein {
     from {
