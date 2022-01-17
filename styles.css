@@ -856,7 +856,7 @@ p.developer-email {
     grid-template-columns: 500px auto;
     justify-content: space-around;
     align-items: center;
-    background-image: url("../images/illustration-1-contact-form-desktop.svg"), url("../images/illustration-2-contact-form-desktop.svg"), url("../images/contact\ form-illustratoin-3-desktop.svg");
+    background-image: url("/images/illustration-1-contact-form-desktop.SVG"), url("../images/illustration-2-contact-form-desktop.svg"), url("../images/contact\ form-illustratoin-3-desktop.svg");
     background-repeat: no-repeat, no-repeat, no-repeat;
     background-position-x: 0%, 25%, 100%;
     background-position-y: 100%, 100%, 60%;
