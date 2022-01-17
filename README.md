@@ -15,6 +15,9 @@ to accommodate all screen sizes.
 - Stylelint
 - Lighthouse
 
+## Live Demo
+
+[Live Demo Link](https://andreacostabz.github.io/andre-acosta-portfolio/)
 
 ## Getting Started
 
