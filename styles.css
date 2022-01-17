@@ -350,7 +350,7 @@ section.about {
   margin-top: 18px;
   width: 100%;
   justify-content: center;
-  background-image: url("../images/illustration\ 1-\ about\ me-mobile.svg");
+  background-image: url("./images/main-about.SVG");
   background-repeat: no-repeat;
   background-size: auto;
   background-position-x: 100%;
@@ -385,7 +385,7 @@ div.aboutme-desc p {
 section.resume-btn {
   display: flex;
   justify-content: center;
-  background-image: url("../images/illustration\ 2-about\ me\ mobile.svg");
+  background-image: url("./images/second-about.SVG");
   background-repeat: no-repeat;
   background-size: auto;
   background-position-y: 20%;
