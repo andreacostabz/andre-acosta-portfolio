@@ -14,7 +14,7 @@ div.main-body {
 }
 
 section.back-img {
-  background-image: url("../images/Header-llustration-desktop.svg");
+  background-image: url("./images/Header-llustration-desktop.SVG");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
