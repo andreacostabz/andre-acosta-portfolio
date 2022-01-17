@@ -19,6 +19,7 @@ to accommodate all screen sizes.
 
 [Live Demo Link](https://andreacostabz.github.io/andre-acosta-portfolio/)
 
+
 ## Getting Started
 
 **This is an example of how you may give instructions on setting up your project locally.**
